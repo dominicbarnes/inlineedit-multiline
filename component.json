@@ -1,0 +1,16 @@
+{
+  "name": "inlineedit-multiline",
+  "dependencies": {
+    "dominicbarnes/inlineedit": "*"
+  },
+  "development": {
+    "component/domify": "*",
+    "dominicbarnes/expect.js": "*"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "form.html"
+  ]
+}

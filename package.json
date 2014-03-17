@@ -1,0 +1,35 @@
+{
+  "name": "inlineedit-multiline",
+  "version": "0.0.0",
+  "description": "An inlineedit extension that gives a textarea for multi-line editing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rm -rf build",
+    "distclean": "rm -rf components node_modules",
+    "deps": "component install --dev",
+    "build": "component build --dev",
+    "test": "component test phantom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dominicbarnes/inlineedit-multiline.git"
+  },
+  "author": "Dominic Barnes <dominic@dbarnes.info>",
+  "homepage": "https://github.com/dominicbarnes/inlineedit-multiline",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominicbarnes/inlineedit-multiline/issues"
+  },
+  "keywords": [
+    "inlineedit",
+    "multiline",
+    "browser"
+  ],
+  "devDependencies": {
+    "component": "^0.19.7",
+    "component-test": "^0.1.3"
+  }
+}
