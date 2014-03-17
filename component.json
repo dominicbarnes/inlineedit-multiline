@@ -12,6 +12,6 @@
     "index.js"
   ],
   "templates": [
-    "form.html"
+    "interface.html"
   ]
 }
