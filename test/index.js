@@ -4,8 +4,8 @@ var expect = require("expect.js");
 var InlineEditMultiline = require("inlineedit-multiline");
 
 describe("InlineEditMultiline(settings)", function () {
-    describe("#generateInterface", function () {
-        var prop = InlineEditMultiline.prototype.generateInterface;
+    describe("#interfaceElement", function () {
+        var prop = InlineEditMultiline.prototype.interfaceElement;
 
         it("should be a string by default", function () {
             expect(prop).to.be.a("string");
