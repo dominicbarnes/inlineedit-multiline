@@ -14,5 +14,5 @@ var InlineEdit = require("inlineedit");
 
 // single export
 module.exports = InlineEdit.extend({
-    generateInterface: require("./interface.html")
+    interfaceElement: require("./interface.html")
 });
