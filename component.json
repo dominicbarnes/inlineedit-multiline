@@ -2,7 +2,7 @@
   "name": "inlineedit-multiline",
   "version": "0.0.2",
   "dependencies": {
-    "dominicbarnes/inlineedit": "*"
+    "treetopllc/inlineedit": "0.0.8"
   },
   "development": {
     "component/domify": "*",
