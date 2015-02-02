@@ -1,6 +1,6 @@
 {
   "name": "inlineedit-multiline",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An inlineedit extension that gives a textarea for multi-line editing",
   "main": "index.js",
   "directories": {
